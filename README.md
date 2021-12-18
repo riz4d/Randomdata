@@ -16,6 +16,17 @@ telethon
 requests
 faker
 
+## Variables
+
+`API_ID`<br>
+It can grab from https://my.telegram.org/auth
+<br>
+`API_HASH`<br>
+Also it from https://my.telegram.org/auth
+<br>
+`TOKEN`<br>
+It gots you from [@botfather](https://telegram.me/BotFather) on telegram
+
 ## Deployment
 
 [![Deploy On Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)](https://heroku.com/deploy?template=https://github.com/riz4d/Randomdata)
