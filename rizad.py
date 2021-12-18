@@ -65,6 +65,7 @@ async def hi(event):
     fake = Faker()
     print("FAKE DETAILS GENERATED\n")
     name = str(fake.name())
+    country = str(fake.country())
     fake.add_provider(internet)
     address = str(fake.address())
     ip = fake.ipv4_private()
@@ -74,7 +75,7 @@ async def hi(event):
     android = fake.android_platform_token()
     pc = fake.chrome()
     await event.reply(
-        f"<b><u> Fake Data Generated</b></u>\n<b>Name :- </b><code>{name}</code>\n\n<b>Address:- </b><code>{address}</code>\n\n<b>IP ADDRESS:- </b><code>{ip}</code>\n\n<b>credit card:- </b><code>{cc}</code>\n\n<b>Email Id:- </b><code>{email}</code>\n\n<b>Job:- </b><code>{job}</code>\n\n<b>android user agent:- </b><code>{android}</code>\n\n<b>Pc user agent:- </b><code>{pc}</code>",
+        f"<b><u>Developed By @riz4d</b></u>\n\nn<b>Name :- </b><code>{name}</code>\n\n<b>Address:- </b><code>{address}</code>\n\n<b>Country:- </b><code>{country}</code>\n\n<b>IP ADDRESS:- </b><code>{ip}</code>\n\n<b>credit card:- </b><code>{cc}</code>\n\n<b>Email Id:- </b><code>{email}</code>\n\n<b>Job:- </b><code>{job}</code>\n\n<b>android user agent:- </b><code>{android}</code>\n\n<b>Pc user agent:- </b><code>{pc}</code>",
         parse_mode="HTML",
     )
 
@@ -93,7 +94,7 @@ async def start(event):
 
 @rizad.on(events.callbackquery.CallbackQuery(data="help"))
 async def ex(event):
-    await event.edit("**Heyy Dude it's not aa complecated task just type `/fakedb`.**\n : **Queries @riz4d**")
+    await event.edit("**Heyy Dude it's not aa complecated task just type `/fakedb`.**\n  **Queries @riz4d**")
 
 print ("Hosted Successfully")
 rizad.run_until_disconnected()
