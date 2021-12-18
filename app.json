@@ -1,0 +1,18 @@
+{
+    "name": "Fake data Bot",
+    "description": "A simple Python oriented telegram bot to generate random data's Citizens, For verification purpose.",
+    "repository": "https://github.com/riz4d/Randomdata",
+    "keywords": ["telegram", "fakedb", "riz4d","telethon", "rizad"],
+    "env": {
+        "TOKEN": {
+            "description": "Bot token here"
+        },
+        "API_ID": {
+            "description": "API_ID here"
+        },
+        "API_HASH": {
+            "description": "API_HASH here"
+        }
+    },
+    "buildpacks": [{"url": "heroku/python"}]
+}

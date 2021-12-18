@@ -1,0 +1,1 @@
+rizad: python -m rizad
