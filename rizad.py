@@ -88,7 +88,7 @@ async def start(event):
         return
     await event.reply(f"**Hey!! {event.sender.first_name}**\nI can generate random Data's of citizens.\n My Master Mind Is Here @riz4d",
                     buttons=[
-                        [Button.url("Instagram", url="https://instagram.com/rizad__x96")],
+                        [Button.url("Instagram", url="https://instagram.com/riz.4d")],
                         [Button.inline("Help",data="help")]
                     ])
 
